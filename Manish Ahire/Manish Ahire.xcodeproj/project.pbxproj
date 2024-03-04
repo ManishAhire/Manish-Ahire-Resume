@@ -12,6 +12,11 @@
 		11A184CF2B8F42D100311BB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A184CE2B8F42D100311BB4 /* Preview Assets.xcassets */; };
 		11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A184D92B8F44AA00311BB4 /* HomeView.swift */; };
 		11A184DE2B8F6BC700311BB4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A184DD2B8F6BC700311BB4 /* Launch Screen.storyboard */; };
+		11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A184DF2B90BBE500311BB4 /* AboutMeView.swift */; };
+		11F899A82B959C4A00F3620F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A72B959C4A00F3620F /* Experience.swift */; };
+		11F899AA2B959C5B00F3620F /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A92B959C5B00F3620F /* Skills.swift */; };
+		11F899AC2B959C6500F3620F /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899AB2B959C6500F3620F /* Education.swift */; };
+		11F899AE2B959C7F00F3620F /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899AD2B959C7F00F3620F /* Projects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		11A184CE2B8F42D100311BB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11A184D92B8F44AA00311BB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		11A184DD2B8F6BC700311BB4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		11A184DF2B90BBE500311BB4 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		11F899A72B959C4A00F3620F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		11F899A92B959C5B00F3620F /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		11F899AB2B959C6500F3620F /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		11F899AD2B959C7F00F3620F /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				11A184D82B8F445400311BB4 /* Home */,
+				11A184DF2B90BBE500311BB4 /* AboutMeView.swift */,
+				11F899A72B959C4A00F3620F /* Experience.swift */,
+				11F899A92B959C5B00F3620F /* Skills.swift */,
+				11F899AB2B959C6500F3620F /* Education.swift */,
+				11F899AD2B959C7F00F3620F /* Projects.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
+				11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */,
 				11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */,
+				11F899AC2B959C6500F3620F /* Education.swift in Sources */,
 				11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */,
+				11F899AA2B959C5B00F3620F /* Skills.swift in Sources */,
+				11F899A82B959C4A00F3620F /* Experience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

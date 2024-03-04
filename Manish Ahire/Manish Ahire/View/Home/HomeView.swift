@@ -9,7 +9,48 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView {
+            
+            AboutMeView()
+                .tabItem {
+                    Image(.user)
+                        .renderingMode(.template)
+                    Text("About Me")
+                }
+            
+            Experience()
+                .tabItem {
+                    Image(.book)
+                        .renderingMode(.template)
+                    Text("Experience")
+                }
+            
+            Skills()
+                .tabItem {
+                    Image(.trophy)
+                        .renderingMode(.template)
+                    Text("Skills")
+                }
+            
+            Education()
+                .tabItem {
+                    Image(.motherboard)
+                        .renderingMode(.template)
+                    Text("Education")
+                }
+            
+            Projects()
+                .tabItem {
+                    Image(.envelope)
+                        .renderingMode(.template)
+                        
+                    Text("Projects")
+                        
+                }
+            
+        }
+        .tint(.orangeIcon)
     }
 }
 
