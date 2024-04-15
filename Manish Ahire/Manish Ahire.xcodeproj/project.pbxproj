@@ -13,10 +13,24 @@
 		11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A184D92B8F44AA00311BB4 /* HomeView.swift */; };
 		11A184DE2B8F6BC700311BB4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A184DD2B8F6BC700311BB4 /* Launch Screen.storyboard */; };
 		11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A184DF2B90BBE500311BB4 /* AboutMeView.swift */; };
+		11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */; };
 		11F899A82B959C4A00F3620F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A72B959C4A00F3620F /* Experience.swift */; };
 		11F899AA2B959C5B00F3620F /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A92B959C5B00F3620F /* Skills.swift */; };
 		11F899AC2B959C6500F3620F /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899AB2B959C6500F3620F /* Education.swift */; };
 		11F899AE2B959C7F00F3620F /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899AD2B959C7F00F3620F /* Projects.swift */; };
+		11F899BC2B95CF0200F3620F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B42B95CF0200F3620F /* Nunito-Medium.ttf */; };
+		11F899BD2B95CF0200F3620F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B52B95CF0200F3620F /* Nunito-ExtraBold.ttf */; };
+		11F899BE2B95CF0200F3620F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B62B95CF0200F3620F /* Nunito-Light.ttf */; };
+		11F899BF2B95CF0200F3620F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B72B95CF0200F3620F /* Nunito-Regular.ttf */; };
+		11F899C02B95CF0200F3620F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B82B95CF0200F3620F /* Nunito-SemiBold.ttf */; };
+		11F899C12B95CF0200F3620F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899B92B95CF0200F3620F /* Nunito-Bold.ttf */; };
+		11F899C22B95CF0200F3620F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899BA2B95CF0200F3620F /* Nunito-Black.ttf */; };
+		11F899C32B95CF0200F3620F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F899BB2B95CF0200F3620F /* Nunito-ExtraLight.ttf */; };
+		11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899C52B95CF3D00F3620F /* Fonts.swift */; };
+		11F899CC2B95DEAA00F3620F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899CB2B95DEAA00F3620F /* TitleView.swift */; };
+		11F899CE2B95E76C00F3620F /* TitleAndDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899CD2B95E76C00F3620F /* TitleAndDescriptionView.swift */; };
+		11F899D42B95F11A00F3620F /* QAData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899D32B95F11A00F3620F /* QAData.swift */; };
+		11F899D62B95F20400F3620F /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899D52B95F20400F3620F /* AboutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +41,25 @@
 		11A184D92B8F44AA00311BB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		11A184DD2B8F6BC700311BB4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		11A184DF2B90BBE500311BB4 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
 		11F899A72B959C4A00F3620F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		11F899A92B959C5B00F3620F /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
 		11F899AB2B959C6500F3620F /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		11F899AD2B959C7F00F3620F /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		11F899B42B95CF0200F3620F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		11F899B52B95CF0200F3620F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		11F899B62B95CF0200F3620F /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		11F899B72B95CF0200F3620F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		11F899B82B95CF0200F3620F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		11F899B92B95CF0200F3620F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		11F899BA2B95CF0200F3620F /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		11F899BB2B95CF0200F3620F /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		11F899C52B95CF3D00F3620F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		11F899C92B95DCA400F3620F /* Manish-Ahire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Manish-Ahire-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11F899CB2B95DEAA00F3620F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		11F899CD2B95E76C00F3620F /* TitleAndDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndDescriptionView.swift; sourceTree = "<group>"; };
+		11F899D32B95F11A00F3620F /* QAData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAData.swift; sourceTree = "<group>"; };
+		11F899D52B95F20400F3620F /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +92,10 @@
 		11A184C62B8F42CC00311BB4 /* Manish Ahire */ = {
 			isa = PBXGroup;
 			children = (
+				11F899C92B95DCA400F3620F /* Manish-Ahire-Info.plist */,
+				11F899C42B95CF3100F3620F /* Common */,
 				11A184DC2B8F6A3B00311BB4 /* App */,
-				11A184D52B8F441900311BB4 /* Model */,
 				11A184D62B8F442800311BB4 /* View */,
-				11A184D72B8F442E00311BB4 /* ViewModel */,
 				11A184DB2B8F67A100311BB4 /* Resources */,
 				11A184CD2B8F42D100311BB4 /* Preview Content */,
 			);
@@ -81,31 +110,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		11A184D52B8F441900311BB4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		11A184D62B8F442800311BB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				11F899CA2B95DE8700F3620F /* Common */,
 				11A184D82B8F445400311BB4 /* Home */,
-				11A184DF2B90BBE500311BB4 /* AboutMeView.swift */,
+				11F899CF2B95F0C900F3620F /* About Me */,
 				11F899A72B959C4A00F3620F /* Experience.swift */,
 				11F899A92B959C5B00F3620F /* Skills.swift */,
 				11F899AB2B959C6500F3620F /* Education.swift */,
 				11F899AD2B959C7F00F3620F /* Projects.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		11A184D72B8F442E00311BB4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		11A184D82B8F445400311BB4 /* Home */ = {
@@ -119,6 +135,7 @@
 		11A184DB2B8F67A100311BB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11F899B32B95CF0200F3620F /* CustomFonts */,
 				11A184CB2B8F42D100311BB4 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -131,6 +148,73 @@
 				11A184DD2B8F6BC700311BB4 /* Launch Screen.storyboard */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		11F899B32B95CF0200F3620F /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				11F899B42B95CF0200F3620F /* Nunito-Medium.ttf */,
+				11F899B52B95CF0200F3620F /* Nunito-ExtraBold.ttf */,
+				11F899B62B95CF0200F3620F /* Nunito-Light.ttf */,
+				11F899B72B95CF0200F3620F /* Nunito-Regular.ttf */,
+				11F899B82B95CF0200F3620F /* Nunito-SemiBold.ttf */,
+				11F899B92B95CF0200F3620F /* Nunito-Bold.ttf */,
+				11F899BA2B95CF0200F3620F /* Nunito-Black.ttf */,
+				11F899BB2B95CF0200F3620F /* Nunito-ExtraLight.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		11F899C42B95CF3100F3620F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11F899C52B95CF3D00F3620F /* Fonts.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		11F899CA2B95DE8700F3620F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11F899CB2B95DEAA00F3620F /* TitleView.swift */,
+				11F899CD2B95E76C00F3620F /* TitleAndDescriptionView.swift */,
+				11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		11F899CF2B95F0C900F3620F /* About Me */ = {
+			isa = PBXGroup;
+			children = (
+				11F899D02B95F0EB00F3620F /* Model */,
+				11F899D12B95F0F200F3620F /* View */,
+				11F899D22B95F0F700F3620F /* ViewModel */,
+			);
+			path = "About Me";
+			sourceTree = "<group>";
+		};
+		11F899D02B95F0EB00F3620F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11F899D32B95F11A00F3620F /* QAData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11F899D12B95F0F200F3620F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11A184DF2B90BBE500311BB4 /* AboutMeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11F899D22B95F0F700F3620F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11F899D52B95F20400F3620F /* AboutViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +275,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F899C02B95CF0200F3620F /* Nunito-SemiBold.ttf in Resources */,
+				11F899C22B95CF0200F3620F /* Nunito-Black.ttf in Resources */,
+				11F899BC2B95CF0200F3620F /* Nunito-Medium.ttf in Resources */,
 				11A184DE2B8F6BC700311BB4 /* Launch Screen.storyboard in Resources */,
+				11F899C32B95CF0200F3620F /* Nunito-ExtraLight.ttf in Resources */,
+				11F899BE2B95CF0200F3620F /* Nunito-Light.ttf in Resources */,
+				11F899C12B95CF0200F3620F /* Nunito-Bold.ttf in Resources */,
+				11F899BD2B95CF0200F3620F /* Nunito-ExtraBold.ttf in Resources */,
+				11F899BF2B95CF0200F3620F /* Nunito-Regular.ttf in Resources */,
 				11A184CF2B8F42D100311BB4 /* Preview Assets.xcassets in Resources */,
 				11A184CC2B8F42D100311BB4 /* Assets.xcassets in Resources */,
 			);
@@ -204,12 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
+				11F899D62B95F20400F3620F /* AboutViewModel.swift in Sources */,
+				11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */,
 				11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */,
+				11F899D42B95F11A00F3620F /* QAData.swift in Sources */,
 				11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */,
 				11F899AC2B959C6500F3620F /* Education.swift in Sources */,
+				11F899CC2B95DEAA00F3620F /* TitleView.swift in Sources */,
 				11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */,
 				11F899AA2B959C5B00F3620F /* Skills.swift in Sources */,
+				11F899CE2B95E76C00F3620F /* TitleAndDescriptionView.swift in Sources */,
 				11F899A82B959C4A00F3620F /* Experience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +444,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Manish Ahire/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Manish-Ahire-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Manish Ahire/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Manish-Ahire-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
