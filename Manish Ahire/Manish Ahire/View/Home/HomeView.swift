@@ -19,12 +19,14 @@ struct HomeView: View {
                     Text("About Me")
                 }
             
+            
             Experience()
                 .tabItem {
                     Image(.book)
                         .renderingMode(.template)
                     Text("Experience")
                 }
+            
             
             Skills()
                 .tabItem {
@@ -44,9 +46,9 @@ struct HomeView: View {
                 .tabItem {
                     Image(.envelope)
                         .renderingMode(.template)
-                        
+                    
                     Text("Projects")
-                        
+                    
                 }
             
         }

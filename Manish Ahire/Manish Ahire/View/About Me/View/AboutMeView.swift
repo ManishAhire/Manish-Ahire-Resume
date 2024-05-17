@@ -18,21 +18,21 @@ struct AboutMeView: View {
             
             TitleView(title: .constant(title))
             
-            ForEach(aboutVM.qaData, id: \.id) {
-                TitleAndDescriptionView(
-                    title: .constant($0.question),
-                    description: .constant($0.answer)
-                )
+            ScrollView() {
+                ForEach(aboutVM.qaData, id: \.id) {
+                    TitleAndDescriptionView(
+                        title: .constant($0.question),
+                        description: .constant($0.answer)
+                    )
+                }
+                
+                ContactDetails()
+                    .padding(.top, 5)
+                
+                LocationDetails()
+                    .padding(.top, 5)
             }
-            
-            ContactDetails()
-                .padding(.top, 5)
-            
-            LocationDetails()
-                .padding(.top, 5)
-            
-            
-            Spacer()
+            .scrollIndicators(.hidden)
         }
         .padding()
         .background(
@@ -42,7 +42,8 @@ struct AboutMeView: View {
                     AssetColor.secondGradientColor.color
                 ]),
                 startPoint: .top,
-                endPoint: .bottom)
+                endPoint: .bottom
+            )
         )
         .onAppear() {
             aboutVM.fetchData()
