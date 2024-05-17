@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */; };
+		117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */; };
+		117B737F2BF5F40200C0AB75 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737E2BF5F40200C0AB75 /* LocationDetails.swift */; };
+		117B73812BF5FB4900C0AB75 /* HireMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B73802BF5FB4900C0AB75 /* HireMeButton.swift */; };
+		117B73842BF5FEE300C0AB75 /* HireMeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B73832BF5FEE300C0AB75 /* HireMeData.swift */; };
 		11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A184C72B8F42CC00311BB4 /* Manish_AhireApp.swift */; };
 		11A184CC2B8F42D100311BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A184CB2B8F42D100311BB4 /* Assets.xcassets */; };
 		11A184CF2B8F42D100311BB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A184CE2B8F42D100311BB4 /* Preview Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColor.swift; sourceTree = "<group>"; };
+		117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		117B737E2BF5F40200C0AB75 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		117B73802BF5FB4900C0AB75 /* HireMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeButton.swift; sourceTree = "<group>"; };
+		117B73832BF5FEE300C0AB75 /* HireMeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeData.swift; sourceTree = "<group>"; };
 		11A184C42B8F42CC00311BB4 /* Manish Ahire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manish Ahire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A184C72B8F42CC00311BB4 /* Manish_AhireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manish_AhireApp.swift; sourceTree = "<group>"; };
 		11A184CB2B8F42D100311BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117B73822BF5FED400C0AB75 /* HireMe */ = {
+			isa = PBXGroup;
+			children = (
+				117B73802BF5FB4900C0AB75 /* HireMeButton.swift */,
+				117B73832BF5FEE300C0AB75 /* HireMeData.swift */,
+			);
+			path = HireMe;
+			sourceTree = "<group>";
+		};
 		11A184BB2B8F42CC00311BB4 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				11F899C52B95CF3D00F3620F /* Fonts.swift */,
+				117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -179,6 +199,7 @@
 				11F899CB2B95DEAA00F3620F /* TitleView.swift */,
 				11F899CD2B95E76C00F3620F /* TitleAndDescriptionView.swift */,
 				11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */,
+				117B73822BF5FED400C0AB75 /* HireMe */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -205,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				11A184DF2B90BBE500311BB4 /* AboutMeView.swift */,
+				117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */,
+				117B737E2BF5F40200C0AB75 /* LocationDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
+				117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
+				117B73812BF5FB4900C0AB75 /* HireMeButton.swift in Sources */,
 				11F899D62B95F20400F3620F /* AboutViewModel.swift in Sources */,
 				11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */,
 				11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */,
@@ -305,10 +330,13 @@
 				11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */,
 				11F899AC2B959C6500F3620F /* Education.swift in Sources */,
 				11F899CC2B95DEAA00F3620F /* TitleView.swift in Sources */,
+				117B73842BF5FEE300C0AB75 /* HireMeData.swift in Sources */,
 				11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */,
+				117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */,
 				11F899AA2B959C5B00F3620F /* Skills.swift in Sources */,
 				11F899CE2B95E76C00F3620F /* TitleAndDescriptionView.swift in Sources */,
 				11F899A82B959C4A00F3620F /* Experience.swift in Sources */,
+				117B737F2BF5F40200C0AB75 /* LocationDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Manish Ahire/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F49W83KP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Manish-Ahire-Info.plist";
@@ -472,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Manish Ahire/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F49W83KP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Manish-Ahire-Info.plist";

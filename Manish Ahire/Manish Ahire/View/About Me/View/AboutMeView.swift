@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AboutMeView: View {
+    
     private var title: String = "About Me🤔"
     
     @ObservedObject var aboutVM : AboutViewModel = AboutViewModel()
@@ -24,36 +25,17 @@ struct AboutMeView: View {
                 )
             }
             
-            TitleAndDescriptionView (
-                title: .constant("My contact details🤙"),
-                description: .constant(
-                    "💌 ahiremanishb@gmail.com \n 📱 +91 87938 38402")
-            )
+            ContactDetails()
+                .padding(.top, 5)
             
-            
-            VStack(alignment: .leading) {
-                Text("My contact details🤙")
-                    .font(Fonts.black.size(15))
-                    .foregroundStyle(.blackSecondary)
-                
-                VStack(alignment: .leading) {
-                    Text("ahiremanishb@gmail.com")
-                        .multilineTextAlignment(.leading)
-                    Text("+91 87938 38402")
-                }
-                .font(Fonts.regular.size(14))
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 10)
-                .padding(.horizontal, 15)
-                .background(.whiteBackground)
-            }
-            .frame(maxWidth: .infinity)
+            LocationDetails()
+                .padding(.top, 5)
             
             
             Spacer()
         }
         .padding()
-        .background(.secondGradient)
+        .background(AssetColor.secondGradientColor.color)
         .onAppear() {
             aboutVM.fetchData()
         }

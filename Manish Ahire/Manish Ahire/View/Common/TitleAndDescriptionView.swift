@@ -12,20 +12,21 @@ struct TitleAndDescriptionView: View {
     @Binding var description: String
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 4) {
             Text(title)
-                .font(Fonts.black.size(15))
-            .foregroundStyle(.blackSecondary)
-          
+                .font(Fonts.black.size(16))
+                .foregroundStyle(AssetColor.blackSecondary.color)
+            
             Text(description)
-                .font(Fonts.regular.size(14))
+                .font(Fonts.regular.size(15))
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.vertical, 15)
                 .padding(.horizontal, 15)
-                .background(.whiteBackground)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                .background(AssetColor.whiteBackground.color)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
                 .shadow(color: .black.opacity(0.05), radius: 5)
+                .foregroundStyle(AssetColor.blackLabels.color)
         }
-        .frame(width: .infinity)
     }
 }
 
