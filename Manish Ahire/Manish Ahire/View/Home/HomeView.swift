@@ -50,7 +50,7 @@ struct HomeView: View {
                 }
             
         }
-        .tint(.orangeIcon)
+        .tint(AssetColor.orangeIcon.color)
     }
 }
 

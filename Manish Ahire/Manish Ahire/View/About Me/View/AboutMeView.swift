@@ -35,7 +35,15 @@ struct AboutMeView: View {
             Spacer()
         }
         .padding()
-        .background(AssetColor.secondGradientColor.color)
+        .background(
+            LinearGradient(
+                gradient: Gradient(colors: [
+                    AssetColor.firstGradientColor.color,
+                    AssetColor.secondGradientColor.color
+                ]),
+                startPoint: .top,
+                endPoint: .bottom)
+        )
         .onAppear() {
             aboutVM.fetchData()
         }
