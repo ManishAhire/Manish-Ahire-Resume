@@ -47,7 +47,7 @@ struct ExperienceRow: View {
         .padding()
         .background(AssetColor.whiteBackground.color)
         .clipShape(RoundedRectangle(cornerRadius: 15))
-        .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 0)
+        .shadow(color: .black.opacity(0.05), radius: 5)
     }
 }
 

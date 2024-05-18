@@ -21,6 +21,9 @@
 		11C5626B2BF769F800A1C694 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5626A2BF769F800A1C694 /* ExperienceViewModel.swift */; };
 		11C5626D2BF7706900A1C694 /* ExperienceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5626C2BF7706900A1C694 /* ExperienceRow.swift */; };
 		11C562722BF7861C00A1C694 /* ExperienceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C562712BF7861C00A1C694 /* ExperienceDetails.swift */; };
+		11C562752BF78BB100A1C694 /* SkillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C562742BF78BB100A1C694 /* SkillsViewModel.swift */; };
+		11C562772BF78BBE00A1C694 /* SkillsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C562762BF78BBE00A1C694 /* SkillsModel.swift */; };
+		11C5627B2BF78FBA00A1C694 /* SkillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5627A2BF78FBA00A1C694 /* SkillRow.swift */; };
 		11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */; };
 		11F899A82B959C4A00F3620F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A72B959C4A00F3620F /* Experience.swift */; };
 		11F899AA2B959C5B00F3620F /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F899A92B959C5B00F3620F /* Skills.swift */; };
@@ -57,6 +60,9 @@
 		11C5626A2BF769F800A1C694 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
 		11C5626C2BF7706900A1C694 /* ExperienceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRow.swift; sourceTree = "<group>"; };
 		11C562712BF7861C00A1C694 /* ExperienceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetails.swift; sourceTree = "<group>"; };
+		11C562742BF78BB100A1C694 /* SkillsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewModel.swift; sourceTree = "<group>"; };
+		11C562762BF78BBE00A1C694 /* SkillsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsModel.swift; sourceTree = "<group>"; };
+		11C5627A2BF78FBA00A1C694 /* SkillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillRow.swift; sourceTree = "<group>"; };
 		11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
 		11F899A72B959C4A00F3620F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		11F899A92B959C5B00F3620F /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
@@ -142,7 +148,7 @@
 				11A184D82B8F445400311BB4 /* Home */,
 				11F899CF2B95F0C900F3620F /* About Me */,
 				11C562692BF762AE00A1C694 /* Experience */,
-				11F899A92B959C5B00F3620F /* Skills.swift */,
+				11C562732BF78B0800A1C694 /* Skill */,
 				11F899AB2B959C6500F3620F /* Education.swift */,
 				11F899AD2B959C7F00F3620F /* Projects.swift */,
 			);
@@ -208,6 +214,41 @@
 				11C562712BF7861C00A1C694 /* ExperienceDetails.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		11C562732BF78B0800A1C694 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				11C5627C2BF79F2700A1C694 /* Model */,
+				11C5627D2BF79F3200A1C694 /* View */,
+				11C5627E2BF79F3E00A1C694 /* ViewModel */,
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		11C5627C2BF79F2700A1C694 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C562762BF78BBE00A1C694 /* SkillsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11C5627D2BF79F3200A1C694 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11F899A92B959C5B00F3620F /* Skills.swift */,
+				11C5627A2BF78FBA00A1C694 /* SkillRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11C5627E2BF79F3E00A1C694 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11C562742BF78BB100A1C694 /* SkillsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		11F899B32B95CF0200F3620F /* CustomFonts */ = {
@@ -360,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C5627B2BF78FBA00A1C694 /* SkillRow.swift in Sources */,
 				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
 				117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
@@ -373,6 +415,7 @@
 				11F899AC2B959C6500F3620F /* Education.swift in Sources */,
 				11C5626B2BF769F800A1C694 /* ExperienceViewModel.swift in Sources */,
 				11F899CC2B95DEAA00F3620F /* TitleView.swift in Sources */,
+				11C562772BF78BBE00A1C694 /* SkillsModel.swift in Sources */,
 				11C562722BF7861C00A1C694 /* ExperienceDetails.swift in Sources */,
 				117B73842BF5FEE300C0AB75 /* HireMeData.swift in Sources */,
 				11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */,
@@ -380,6 +423,7 @@
 				11F899AA2B959C5B00F3620F /* Skills.swift in Sources */,
 				11F899CE2B95E76C00F3620F /* TitleAndDescriptionView.swift in Sources */,
 				11F899A82B959C4A00F3620F /* Experience.swift in Sources */,
+				11C562752BF78BB100A1C694 /* SkillsViewModel.swift in Sources */,
 				117B737F2BF5F40200C0AB75 /* LocationDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
