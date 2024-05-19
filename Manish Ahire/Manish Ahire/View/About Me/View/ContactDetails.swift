@@ -11,6 +11,7 @@ struct ContactDetails: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("My contact details🤙")
+                .padding(.top, 4)
                 .font(Fonts.black.size(16))
                 .foregroundStyle(AssetColor.blackSecondary.color)
             
@@ -20,9 +21,8 @@ struct ContactDetails: View {
             }
             .font(Fonts.regular.size(15))
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.vertical, 10)
-            .padding(.horizontal, 15)
-            .background(.whiteBackground)
+            .padding([.vertical, .horizontal], 15)
+            .background(AssetColor.whiteBackground.color)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .shadow(color: .black.opacity(0.05), radius: 5)
             .foregroundStyle(AssetColor.blackLabels.color)

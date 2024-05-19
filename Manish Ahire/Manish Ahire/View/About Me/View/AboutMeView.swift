@@ -10,8 +10,8 @@ import SwiftUI
 struct AboutMeView: View {
     
     private var title: String = "About Me🤔"
-    
-    @ObservedObject var aboutVM : AboutViewModel = AboutViewModel()
+    private var aboutVM : AboutViewModel = AboutViewModel()
+    @State var aboutMe: [AboutMe] = []
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,18 +19,15 @@ struct AboutMeView: View {
             TitleView(title: .constant(title))
             
             ScrollView() {
-                ForEach(aboutVM.qaData, id: \.id) {
-                    TitleAndDescriptionView(
-                        title: .constant($0.question),
-                        description: .constant($0.answer)
-                    )
+                ForEach(aboutMe) { data in
+                    AboutMeRow(aboutMe: .constant(data))
                 }
                 
                 ContactDetails()
-                    .padding(.top, 5)
+                    .padding(.top, 4)
                 
                 LocationDetails()
-                    .padding(.top, 5)
+                    .padding(.top, 4)
             }
             .scrollIndicators(.hidden)
         }
@@ -46,7 +43,7 @@ struct AboutMeView: View {
             )
         )
         .onAppear() {
-            aboutVM.fetchData()
+           aboutMe = aboutVM.fetchData()
         }
     }
 }

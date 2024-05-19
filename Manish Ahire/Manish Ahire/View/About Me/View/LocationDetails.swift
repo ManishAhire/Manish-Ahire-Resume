@@ -11,6 +11,7 @@ struct LocationDetails: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Where do i live?")
+                .padding(.top, 4)
                 .font(Fonts.black.size(16))
                 .foregroundStyle(AssetColor.blackSecondary.color)
             
@@ -22,8 +23,7 @@ struct LocationDetails: View {
                     .font(Fonts.regular.size(15))
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .padding(.vertical, 10)
-            .padding(.horizontal, 15)
+            .padding([.vertical, .horizontal], 15)
             .background(AssetColor.whiteBackground.color)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .shadow(color: .black.opacity(0.05), radius: 5)
