@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169F3092C4681F600BD6860 /* MyCertificates.swift */; };
 		117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */; };
 		117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */; };
 		117B737F2BF5F40200C0AB75 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737E2BF5F40200C0AB75 /* LocationDetails.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1169F3092C4681F600BD6860 /* MyCertificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCertificates.swift; sourceTree = "<group>"; };
 		117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColor.swift; sourceTree = "<group>"; };
 		117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
 		117B737E2BF5F40200C0AB75 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 				11F899CF2B95F0C900F3620F /* About Me */,
 				11C562692BF762AE00A1C694 /* Experience */,
 				11C562732BF78B0800A1C694 /* Skill */,
-				11F899AB2B959C6500F3620F /* Education.swift */,
+				11C5627F2BF9C9D800A1C694 /* Education */,
 				11F899AD2B959C7F00F3620F /* Projects.swift */,
 			);
 			path = View;
@@ -249,6 +251,15 @@
 				11C562742BF78BB100A1C694 /* SkillsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11C5627F2BF9C9D800A1C694 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				11F899AB2B959C6500F3620F /* Education.swift */,
+				1169F3092C4681F600BD6860 /* MyCertificates.swift */,
+			);
+			path = Education;
 			sourceTree = "<group>";
 		};
 		11F899B32B95CF0200F3620F /* CustomFonts */ = {
@@ -404,6 +415,7 @@
 				11C5627B2BF78FBA00A1C694 /* SkillRow.swift in Sources */,
 				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
 				117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */,
+				1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
 				117B73812BF5FB4900C0AB75 /* HireMeButton.swift in Sources */,
 				11F899D62B95F20400F3620F /* AboutViewModel.swift in Sources */,
