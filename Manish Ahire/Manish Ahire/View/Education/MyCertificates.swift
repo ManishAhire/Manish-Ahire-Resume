@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MyCertificates: View {
     
+    @State var isPresentPDF: Bool = false
+    
     var body: some View {
         
         VStack {
@@ -24,10 +26,37 @@ struct MyCertificates: View {
                     .foregroundStyle(AssetColor.blackSecondary.color)
             }
             
-            getRow(text: "iOS Development: Architecture")
-            getRow(text: "Reactive Programming in iOS with RxSwift")
-            getRow(text: "iOS Development: Threading and Grand Central Dispatch")
-            getRow(text: "The Complete iOS 10 Developer")
+            NavigationLink {
+                if let fileURL = Bundle.main.url(forResource: "CertificateOfCompletion_iOS Development Architecture", withExtension: "pdf") {
+                    PDFKitView(url: fileURL)
+                }
+            } label: {
+                getRow(text: "iOS Development: Architecture")
+            }
+            
+            NavigationLink {
+                
+                FullScreenImage(imageName: "Reactive Programming Rxswift.jpg")
+               
+            } label: {
+                getRow(text: "Reactive Programming (RxSwift)")
+            }
+            
+            NavigationLink {
+                if let fileURL = Bundle.main.url(forResource: "Multithreading", withExtension: "pdf") {
+                    PDFKitView(url: fileURL)
+                }
+            } label: {
+                getRow(text: "iOS Development: Multithreading")
+            }
+            
+            
+            NavigationLink {
+                FullScreenImage(imageName: "iOS Developerment.jpg")
+            } label: {
+                getRow(text: "The Complete iOS Developer")
+                
+            }
         }
     }
     

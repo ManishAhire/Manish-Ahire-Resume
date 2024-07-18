@@ -11,53 +11,53 @@ struct Education: View {
     
     var body: some View {
         
-        VStack {
-            TitleView(title: .constant("Education 🧑‍🏫"))
-            
-            ScrollView {
+        NavigationStack {
+            VStack() {
+                TitleView(title: .constant("Education 🧑‍🏫"))
                 
-                HStack {
-                    Image("education")
-                        .frame(width: 40, height: 40)
+                ScrollView() {
                     
-                    Text("My Education")
-                        .font(Fonts.black.size(18))
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundStyle(AssetColor.blackSecondary.color)
-                }
-                .padding(.top, 10)
-                
-                VStack {
-                    
-                    getInstitute(title: "Fergusson College, Pune, India - 411004")
-                    getRow(text: "2013 - 2015")
-                    getRow(text: "Master's in Computer Science")
-                    
-                }
-                .padding(.top, 10)
-                
-                VStack {
-                    
-                    getInstitute(title: "K.A.A.N.M. Sonawane Arts, Science and Commerce College, Satana, Nashik, India - 423301")
-                    getRow(text: "2013 - 2015")
-                    getRow(text: "Master's in Computer Science")
-                    
-                }
-                .padding(.top, 10)
-                
-                MyCertificates()
+                    HStack {
+                        Image("education")
+                            .frame(width: 40, height: 40)
+                        
+                        Text("My Education")
+                            .font(Fonts.black.size(18))
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .foregroundStyle(AssetColor.blackSecondary.color)
+                    }
                     .padding(.top, 10)
+                    
+                    VStack {
+                        
+                        getInstitute(title: "Fergusson College, Pune, India - 411004")
+                        getRow(text: "2013 - 2015")
+                        getRow(text: "Master's in Computer Science")
+                        
+                    }
+                    .padding(.top, 10)
+                    
+                    VStack {
+                        
+                        getInstitute(title: "K.A.A.N.M. Sonawane Arts, Science and Commerce College, Satana, Nashik, India - 423301")
+                        getRow(text: "2013 - 2015")
+                        getRow(text: "Master's in Computer Science")
+                        
+                    }
+                    .padding(.top, 10)
+                    
+                    MyCertificates()
+                        .padding(.top, 10)
+                }
+                .scrollIndicators(.hidden)
             }
-        }
-        .padding()
-        .background() {
-            LinearGradient(
-                gradient: Gradient(colors: [AssetColor.firstGradientColor.color, AssetColor.secondGradientColor.color]),
-                startPoint: .top,
-                endPoint: .bottom)
-        }
-        .onAppear() {
-            
+            .padding()
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [AssetColor.firstGradientColor.color, AssetColor.secondGradientColor.color]),
+                    startPoint: .top,
+                    endPoint: .bottom)
+            )
         }
     }
     

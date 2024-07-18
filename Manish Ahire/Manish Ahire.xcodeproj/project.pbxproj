@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1131D5142C4908F400BBD33B /* Multithreading.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1131D5112C4908F400BBD33B /* Multithreading.pdf */; };
+		1131D5152C4908F400BBD33B /* Reactive Programming Rxswift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1131D5122C4908F400BBD33B /* Reactive Programming Rxswift.jpg */; };
+		1131D5162C4908F400BBD33B /* iOS Developerment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1131D5132C4908F400BBD33B /* iOS Developerment.jpg */; };
+		1131D5182C4909B700BBD33B /* FullScreenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5172C4909B700BBD33B /* FullScreenImage.swift */; };
+		1131D51A2C4914AB00BBD33B /* PDFViewKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5192C4914AB00BBD33B /* PDFViewKit.swift */; };
 		1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169F3092C4681F600BD6860 /* MyCertificates.swift */; };
+		1169F30D2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1169F30C2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf */; };
 		117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */; };
 		117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */; };
 		117B737F2BF5F40200C0AB75 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737E2BF5F40200C0AB75 /* LocationDetails.swift */; };
@@ -46,7 +52,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1131D5112C4908F400BBD33B /* Multithreading.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Multithreading.pdf; sourceTree = "<group>"; };
+		1131D5122C4908F400BBD33B /* Reactive Programming Rxswift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reactive Programming Rxswift.jpg"; sourceTree = "<group>"; };
+		1131D5132C4908F400BBD33B /* iOS Developerment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS Developerment.jpg"; sourceTree = "<group>"; };
+		1131D5172C4909B700BBD33B /* FullScreenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImage.swift; sourceTree = "<group>"; };
+		1131D5192C4914AB00BBD33B /* PDFViewKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewKit.swift; sourceTree = "<group>"; };
 		1169F3092C4681F600BD6860 /* MyCertificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCertificates.swift; sourceTree = "<group>"; };
+		1169F30C2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CertificateOfCompletion_iOS Development Architecture.pdf"; sourceTree = "<group>"; };
 		117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColor.swift; sourceTree = "<group>"; };
 		117B737C2BF5F3B700C0AB75 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
 		117B737E2BF5F40200C0AB75 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
@@ -97,6 +109,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1169F30B2C46878A00BD6860 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				1131D5132C4908F400BBD33B /* iOS Developerment.jpg */,
+				1131D5112C4908F400BBD33B /* Multithreading.pdf */,
+				1131D5122C4908F400BBD33B /* Reactive Programming Rxswift.jpg */,
+				1169F30C2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
 		117B73822BF5FED400C0AB75 /* HireMe */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +191,7 @@
 		11A184DB2B8F67A100311BB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1169F30B2C46878A00BD6860 /* Certificates */,
 				11F899B32B95CF0200F3620F /* CustomFonts */,
 				11A184CB2B8F42D100311BB4 /* Assets.xcassets */,
 			);
@@ -292,6 +316,8 @@
 				11F899CB2B95DEAA00F3620F /* TitleView.swift */,
 				11ED88FC2BC0432000C65723 /* UIScreenExtension.swift */,
 				117B73822BF5FED400C0AB75 /* HireMe */,
+				1131D5192C4914AB00BBD33B /* PDFViewKit.swift */,
+				1131D5172C4909B700BBD33B /* FullScreenImage.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -392,11 +418,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F899C02B95CF0200F3620F /* Nunito-SemiBold.ttf in Resources */,
+				1131D5142C4908F400BBD33B /* Multithreading.pdf in Resources */,
 				11F899C22B95CF0200F3620F /* Nunito-Black.ttf in Resources */,
 				11F899BC2B95CF0200F3620F /* Nunito-Medium.ttf in Resources */,
 				11A184DE2B8F6BC700311BB4 /* Launch Screen.storyboard in Resources */,
 				11F899C32B95CF0200F3620F /* Nunito-ExtraLight.ttf in Resources */,
 				11F899BE2B95CF0200F3620F /* Nunito-Light.ttf in Resources */,
+				1131D5162C4908F400BBD33B /* iOS Developerment.jpg in Resources */,
+				1169F30D2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf in Resources */,
+				1131D5152C4908F400BBD33B /* Reactive Programming Rxswift.jpg in Resources */,
 				11F899C12B95CF0200F3620F /* Nunito-Bold.ttf in Resources */,
 				11F899BD2B95CF0200F3620F /* Nunito-ExtraBold.ttf in Resources */,
 				11F899BF2B95CF0200F3620F /* Nunito-Regular.ttf in Resources */,
@@ -414,12 +444,14 @@
 			files = (
 				11C5627B2BF78FBA00A1C694 /* SkillRow.swift in Sources */,
 				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
+				1131D51A2C4914AB00BBD33B /* PDFViewKit.swift in Sources */,
 				117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */,
 				1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
 				117B73812BF5FB4900C0AB75 /* HireMeButton.swift in Sources */,
 				11F899D62B95F20400F3620F /* AboutViewModel.swift in Sources */,
 				11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */,
+				1131D5182C4909B700BBD33B /* FullScreenImage.swift in Sources */,
 				11C5626D2BF7706900A1C694 /* ExperienceRow.swift in Sources */,
 				11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */,
 				11F899D42B95F11A00F3620F /* AboutMeModel.swift in Sources */,
