@@ -12,6 +12,11 @@
 		1131D5162C4908F400BBD33B /* iOS Developerment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1131D5132C4908F400BBD33B /* iOS Developerment.jpg */; };
 		1131D5182C4909B700BBD33B /* FullScreenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5172C4909B700BBD33B /* FullScreenImage.swift */; };
 		1131D51A2C4914AB00BBD33B /* PDFViewKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5192C4914AB00BBD33B /* PDFViewKit.swift */; };
+		1131D51F2C491E1600BBD33B /* ProjectsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D51E2C491E1600BBD33B /* ProjectsVM.swift */; };
+		1131D5222C491E3A00BBD33B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5212C491E3A00BBD33B /* Project.swift */; };
+		1131D52F2C4926D800BBD33B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D52E2C4926D800BBD33B /* View+Extension.swift */; };
+		1131D5312C49272400BBD33B /* RectangleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5302C49272400BBD33B /* RectangleBackground.swift */; };
+		1131D5332C492BB600BBD33B /* ProjectDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131D5322C492BB600BBD33B /* ProjectDetails.swift */; };
 		1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169F3092C4681F600BD6860 /* MyCertificates.swift */; };
 		1169F30D2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1169F30C2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf */; };
 		117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */; };
@@ -57,6 +62,11 @@
 		1131D5132C4908F400BBD33B /* iOS Developerment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS Developerment.jpg"; sourceTree = "<group>"; };
 		1131D5172C4909B700BBD33B /* FullScreenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImage.swift; sourceTree = "<group>"; };
 		1131D5192C4914AB00BBD33B /* PDFViewKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewKit.swift; sourceTree = "<group>"; };
+		1131D51E2C491E1600BBD33B /* ProjectsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsVM.swift; sourceTree = "<group>"; };
+		1131D5212C491E3A00BBD33B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		1131D52E2C4926D800BBD33B /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		1131D5302C49272400BBD33B /* RectangleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleBackground.swift; sourceTree = "<group>"; };
+		1131D5322C492BB600BBD33B /* ProjectDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetails.swift; sourceTree = "<group>"; };
 		1169F3092C4681F600BD6860 /* MyCertificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCertificates.swift; sourceTree = "<group>"; };
 		1169F30C2C46879900BD6860 /* CertificateOfCompletion_iOS Development Architecture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CertificateOfCompletion_iOS Development Architecture.pdf"; sourceTree = "<group>"; };
 		117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColor.swift; sourceTree = "<group>"; };
@@ -109,6 +119,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1131D51B2C49173F00BBD33B /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				1131D5202C491E2200BBD33B /* Model */,
+				1131D51C2C491DFF00BBD33B /* View */,
+				1131D51D2C491E0600BBD33B /* ViewModel */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		1131D51C2C491DFF00BBD33B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11F899AD2B959C7F00F3620F /* Projects.swift */,
+				1131D5302C49272400BBD33B /* RectangleBackground.swift */,
+				1131D5322C492BB600BBD33B /* ProjectDetails.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1131D51D2C491E0600BBD33B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1131D51E2C491E1600BBD33B /* ProjectsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1131D5202C491E2200BBD33B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1131D5212C491E3A00BBD33B /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1169F30B2C46878A00BD6860 /* Certificates */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +221,7 @@
 				11C562692BF762AE00A1C694 /* Experience */,
 				11C562732BF78B0800A1C694 /* Skill */,
 				11C5627F2BF9C9D800A1C694 /* Education */,
-				11F899AD2B959C7F00F3620F /* Projects.swift */,
+				1131D51B2C49173F00BBD33B /* Projects */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,6 +352,7 @@
 			children = (
 				11F899C52B95CF3D00F3620F /* Fonts.swift */,
 				117B737A2BF5EF9E00C0AB75 /* AssetColor.swift */,
+				1131D52E2C4926D800BBD33B /* View+Extension.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -446,6 +493,7 @@
 				11F899C62B95CF3D00F3620F /* Fonts.swift in Sources */,
 				1131D51A2C4914AB00BBD33B /* PDFViewKit.swift in Sources */,
 				117B737D2BF5F3B700C0AB75 /* ContactDetails.swift in Sources */,
+				1131D51F2C491E1600BBD33B /* ProjectsVM.swift in Sources */,
 				1169F30A2C4681F600BD6860 /* MyCertificates.swift in Sources */,
 				11F899AE2B959C7F00F3620F /* Projects.swift in Sources */,
 				117B73812BF5FB4900C0AB75 /* HireMeButton.swift in Sources */,
@@ -453,8 +501,10 @@
 				11ED88FD2BC0432000C65723 /* UIScreenExtension.swift in Sources */,
 				1131D5182C4909B700BBD33B /* FullScreenImage.swift in Sources */,
 				11C5626D2BF7706900A1C694 /* ExperienceRow.swift in Sources */,
+				1131D5332C492BB600BBD33B /* ProjectDetails.swift in Sources */,
 				11A184E02B90BBE500311BB4 /* AboutMeView.swift in Sources */,
 				11F899D42B95F11A00F3620F /* AboutMeModel.swift in Sources */,
+				1131D5222C491E3A00BBD33B /* Project.swift in Sources */,
 				11A184DA2B8F44AA00311BB4 /* HomeView.swift in Sources */,
 				11F899AC2B959C6500F3620F /* Education.swift in Sources */,
 				11C5626B2BF769F800A1C694 /* ExperienceViewModel.swift in Sources */,
@@ -462,6 +512,8 @@
 				11C562772BF78BBE00A1C694 /* SkillsModel.swift in Sources */,
 				11C562722BF7861C00A1C694 /* ExperienceDetails.swift in Sources */,
 				117B73842BF5FEE300C0AB75 /* HireMeData.swift in Sources */,
+				1131D5312C49272400BBD33B /* RectangleBackground.swift in Sources */,
+				1131D52F2C4926D800BBD33B /* View+Extension.swift in Sources */,
 				11A184C82B8F42CC00311BB4 /* Manish_AhireApp.swift in Sources */,
 				117B737B2BF5EF9E00C0AB75 /* AssetColor.swift in Sources */,
 				11F899AA2B959C5B00F3620F /* Skills.swift in Sources */,
